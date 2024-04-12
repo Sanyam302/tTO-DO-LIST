@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(cathryn-lavery-fMD_Cru6OTk-unsplash.jpg) ;
+    background-size: cover;
+   
+}
+.TO{
+    position: absolute;
+  top: 10px;
+  font-size: 50px;
+  color: transparent;
+  background: url(andrew-neel-cckf4TsHAuw-unsplash.jpg);
+  background-size: cover;
+  -webkit-background-clip: text ;
+}
+.navbar{
+    height: 50rch;
+    width: 50rch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+
+}
+#input{
+    width: 380px;
+    height: 40px;
+    outline: none;
+    border-radius: 30px;
+    
+}
+#input::placeholder{
+    padding-left: 160PX;
+}
+.button{
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 30px;
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+
+
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: grey;
+  left: 520px;
+  
+}
+span{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(cross.png);
+    background-size: cover;
+   
+   left: 800px;
+  
+   
+     cursor: pointer;
+   
+}
+span:hover{
+    background-color: red;
+}
+ul li.checked{
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(check.png);
+    background-size: cover;
+}
+
+
+
